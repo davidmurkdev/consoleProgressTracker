@@ -1,6 +1,8 @@
 #include <iostream> // for std::cout and std::endl
 #include <vector> //for std::vector
 
+//note: Chapters on learncpp.com start at 0 and end at 28, for a total of 29 chapters
+
 int main()
 {
 	int allChapters { 29 };     //total chapters on learncpp.com
@@ -11,7 +13,7 @@ int main()
 	double percentComplete {};  //calculated percentage of course completed
 	
 
-	//vector storing how many lessons are in each chapter (Chapter 0 to 29)
+	//vector storing how many lessons are in each chapter (Chapter 0 to 28)
 	std::vector<int> chapterLessons {12, 11, 13, 10, 12, 11, 7, 13, 15, 6, 9, 9, 14, 13, 16, 10, 12, 13, 4, 5, 7, 14, 7, 7, 9, 11, 6, 10, 7};
 	
 	//user interface to input current progress
